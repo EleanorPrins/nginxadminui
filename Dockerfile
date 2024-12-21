@@ -11,6 +11,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 # Update package list and install dependencies
 RUN apt update && apt install -y \
     python3 python3-venv nginx 7zip \
+    php${PHP_VERSION}-fpm php${PHP_VERSION}-cli php${PHP_VERSION}-curl \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
