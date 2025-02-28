@@ -1,5 +1,5 @@
 # Use the official Ubuntu 24.10 base image
-FROM ubuntu:24.10
+FROM ubuntu:22.04
 
 # Set PHP version as an argument for flexibility
 ARG PHP_VERSION=8.3
