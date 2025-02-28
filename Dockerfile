@@ -2,7 +2,7 @@
 FROM ubuntu:22.04
 
 # Set PHP version as an argument for flexibility
-ARG PHP_VERSION=8.3
+ARG PHP_VERSION=8.1
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive \
